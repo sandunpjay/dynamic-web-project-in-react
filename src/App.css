@@ -1,0 +1,74 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+body{
+  font-family:  'Gotham', sans-serif !important;   
+}
+
+
+.header-text-x{
+  color : #667B44;
+  font-size: x-large; 
+
+}
+
+.header-text-xx{
+  color : #667B44;
+  font-size: xx-large; 
+
+}
+
+.card-background{
+  background-color: #D0D7B9;
+  height: 100px;
+  vertical-align: middle;
+  color: #667B44;
+  font-weight: bolder;
+  font-size: large;  
+  padding-top: 25px; 
+  padding-left: 10px;
+  padding-right: 10px;  
+  cursor: pointer;
+}
+
+.content-text{
+  color: #a29e9e;
+  font-size: medium; 
+  
+}
+
+.div-background{
+  background-color: #FBFBFB;
+}
+
+.main-banner{ 
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-banner img { 
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header-background{
+  background-color: #D0D7B9;
+  height: 100px;
+  color : #647942;   
+  padding-top: 20px;
+  vertical-align: middle;
+}
+
+.qa-text{
+  color : #667B44;
+  font-size: large;
+}
+
+.form-check-input:checked {
+  background-color: #667B44 !important;
+  border-color: #667B44 !important;
+}
+
+

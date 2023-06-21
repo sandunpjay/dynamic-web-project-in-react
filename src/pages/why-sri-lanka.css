@@ -1,0 +1,10 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+body{
+  font-family:  'Gotham', sans-serif !important;   
+}
+
+album-back-drop{
+    background-image: '../images/wsl1.jpg';
+    background-repeat: no-repeat;
+}

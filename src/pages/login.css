@@ -1,0 +1,13 @@
+.login-background{
+  background-image: url('../images/loginbk.jpg');
+  padding: 10px;
+}
+
+.custom-btn {
+    background-color: #667B44;
+    color: #FFFFFF;;
+    border: 2px solid #667B44;;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
