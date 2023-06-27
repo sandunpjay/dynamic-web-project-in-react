@@ -1,5 +1,9 @@
 import React from 'react'
-import Q from '../images/q.jpg';
+import { Form, Row, Col, Button } from 'react-bootstrap';
+import './../App.css'
+import Q from '../images/q.jpg'
+import { Component } from 'react'
+import QuestionService from '../services/QuestionService'
 
 class NotSureWhatIWant extends Component{
   constructor(props){
@@ -72,3 +76,5 @@ render() {
   )
 }
 }
+
+export default NotSureWhatIWant
