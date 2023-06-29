@@ -32,7 +32,7 @@ export default function Home() {
           alt="First slide"
         />
         <Carousel.Caption >
-          <h1>Discover The Best Aurvada</h1>
+          <h1>Discover1 The Best Aurvada</h1>
           <h1>Hotels In Sri Lanka</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br></br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           
