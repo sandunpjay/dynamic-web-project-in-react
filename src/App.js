@@ -13,13 +13,10 @@ import Footer from './components/footer';
 import BW from './pages/beauty-and-wellness-program';
 import PT from './pages/panchakarma-treatment';
 import NS from './pages/not-sure-what-i-want';
-import {useEffect} from 'react';
+import FM from './pages/perfect_match';
 
 function App() {
 
-  useEffect(() => {    
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, []);
 
   return (
     <Router>
@@ -35,6 +32,7 @@ function App() {
         <Route path="/beauty-and-wellness-program" element={<BW/>} /> 
         <Route path="/panchakarma-treatment" element={<PT/>} /> 
         <Route path="/not-sure-what-i-want" element={<NS/>} /> 
+        <Route path="/perfect-match" element={<FM/>} /> 
       </Routes>    
       <Footer/>
     </Router>

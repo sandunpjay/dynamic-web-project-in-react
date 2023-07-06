@@ -10,7 +10,9 @@ export default function AboutUs() {
   return (
     <div>      
       <img
-          className="d-block w-100 " src={About} alt="About" />
+          className="d-block img-fluid" src={About}
+          alt="First slide"
+        />
 
       <div className='row mt-5'>
         <span className='col-md-12 header-text-x text-center'>ABOUT US</span>
@@ -46,13 +48,13 @@ export default function AboutUs() {
                 tour operator in matters of Ayurveda and Sri Lanka as well as Ayurveda trips and more.</p>
             </div>
             <div className='col-md-5'>
-              <img src={Babara} height={500}></img>
+              <img src={Babara} className='d-block img-fluid'></img>
             </div>
       </div>
 
       <div className='row'>
         <div className='col-md-5'>
-              <img src={Samitha} height={500}></img>
+              <img src={Samitha} className='d-block img-fluid' height={300}></img>
             </div>
 
         <div className='ms-5 col-md-6 '>
@@ -77,7 +79,7 @@ export default function AboutUs() {
       </div>
 
       <div className='row div-background'>
-      <div className='ms-5 col-md-6'>
+      <div className='ms-5 col-md-8'>
               <span className='header-text-xx mt-5'>MEET BUDDHI</span>
               
               <p className='mt-5'>Known In Hotel & Travel Trade As Buddhi My Total Experience In Hotel Management 
@@ -94,13 +96,13 @@ export default function AboutUs() {
 
 
             </div>
-            <div className='col-md-5'>
-              <img src={Buddhi} height={500}></img>
+            <div className='col-md-3 align-right'>
+              <img src={Buddhi} className='d-block img-fluid'></img>
             </div>
       </div>
 
       <div className='row'>
-              <img src={BottomImg} height={500}></img>
+              <img src={BottomImg} className='d-block w-100 img-fluid'></img>
        </div>
       
     </div>

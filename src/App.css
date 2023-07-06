@@ -2,6 +2,7 @@
 
 body{
   font-family:  'Gotham', sans-serif !important;   
+  overflow-x: hidden; 
 }
 
 
@@ -70,5 +71,17 @@ body{
   background-color: #667B44 !important;
   border-color: #667B44 !important;
 }
+
+.hotel-card-desc{
+ font-size: small;
+ color: #a29e9e;
+}
+
+.hotel-card-title{
+  font-size: medium;
+  color : #667B44;
+}
+
+
 
 

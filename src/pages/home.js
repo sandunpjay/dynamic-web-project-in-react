@@ -41,14 +41,14 @@ export default function Home() {
       </Carousel>
 
       <div >
-      <div class="text-center mt-5">  
-      <img class="mb-4"
+      <div className="text-center mt-5">  
+      <img className="mb-4"
           src={flowerImage}/>
           
         </div>
-        <div class="text-center">
-          <p class="me-5 ms-5 text-sm-center header-text-xx">FIND THE PERFECT FIT</p>
-          <p class="me-5 ms-5 text-sm-center content-text">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
+        <div className="text-center">
+          <p className="me-5 ms-5 text-sm-center header-text-xx">FIND THE PERFECT FIT</p>
+          <p className="me-5 ms-5 text-sm-center content-text">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
                More than  <br></br>a decade of experience working in and with Ayurveda.</p>
         </div>
 
@@ -105,12 +105,12 @@ export default function Home() {
               </div>
 
               <div>
-              <button className='btn btn-custom mt-5' data-mdb-toggle="button" autocomplete="off">EXPLORE</button>
+              <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off">EXPLORE</button>
               </div>
 
             </div>
             <div className='col-md-6'>
-              <img src={About} height={500} className='col-md-12'></img>
+              <img src={About}  className='col-md-12 img-fluid'></img>
             </div>
 
           </div>
@@ -161,21 +161,21 @@ export default function Home() {
 
             </div>
             <div className='col-md-6'>
-              <img src={WhySL} height={400} className='col-md-12'></img>
+              <img src={WhySL}  className='col-md-12 img-fluid'></img>
             </div>
 
           </div>
 
 
       <div >
-      <div class="text-center mt-5">  
-      <img class="mb-4"
+      <div className="text-center mt-5">  
+      <img className="mb-4"
           src={flowerImage}/>
           
         </div>
-        <div class="text-center">
-          <p class="me-5 ms-5 text-sm-center header-text-xx">LATEST NEWS AND EVENTS</p>
-          <p class="me-5 ms-5 text-sm-center">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
+        <div className="text-center">
+          <p className="me-5 ms-5 text-sm-center header-text-xx">LATEST NEWS AND EVENTS</p>
+          <p className="me-5 ms-5 text-sm-center">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
                More than  <br></br>a decade of experience working in and with Ayurveda.</p>
         </div>
 
@@ -188,7 +188,7 @@ export default function Home() {
           alt="First slide"
         />
         <div className='card-background p-5'>
-        <span class="text-sm-left ">BUEATY AND WELNESS PROGRAM</span>
+        <span className="text-sm-left ">BUEATY AND WELNESS PROGRAM</span>
         
         </div>
         </div>
@@ -198,7 +198,7 @@ export default function Home() {
           alt="First slide"
         />
         <div className='card-background p-5'>
-        <span class="text-sm-left ">PANCHAKARMA TREATMENT</span>
+        <span className="text-sm-left ">PANCHAKARMA TREATMENT</span>
         </div>
         </div>
        <div className='col-md-4 mb-5'><img
@@ -206,7 +206,7 @@ export default function Home() {
           src={News3}
           alt="First slide"/>
            <div className='card-background p-5'>
-           <span class="text-sm-center">NOT SURE WHAT I WANT</span>
+           <span className="text-sm-center">NOT SURE WHAT I WANT</span>
            
           </div>
           </div>

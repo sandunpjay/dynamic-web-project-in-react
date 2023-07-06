@@ -78,7 +78,7 @@ export default function Footer() {
 
         </div>
 
-        <hr class="solid mt-5 mb-5"/>
+        <hr className="solid mt-5 mb-5"/>
 
         <div>            
         <div className='d-inline p-5 footer-text'>&copy;2023 All Rights Recerved</div>

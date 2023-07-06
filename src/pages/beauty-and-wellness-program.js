@@ -1,10 +1,11 @@
 import React from 'react'
-import { Form, Row, Col, Button } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import './../App.css'
+import './home.css'
 import Q from '../images/q.jpg';
 import { Component } from 'react';
 import QuestionService from '../services/QuestionService'
-
+import {LinkContainer} from 'react-router-bootstrap'
 
 
 class BeautyAndWellnessProgram extends Component{
@@ -21,6 +22,7 @@ class BeautyAndWellnessProgram extends Component{
     this.setState({ questions :res.data})
     });
   }
+  
 
 
   render() {
@@ -65,10 +67,10 @@ class BeautyAndWellnessProgram extends Component{
             );
           }
         })}
-
-        <Button variant="success" type="submit"  className='custom-btn w-30'>
-        Find Hotel
-      </Button>
+         <LinkContainer to="/perfect-match">
+         <Button type="submit"  className='btn btn-custom mt-5' >Find Hotels</Button>
+          </LinkContainer>
+        
        </Form>
       </div>
 
@@ -76,7 +78,7 @@ class BeautyAndWellnessProgram extends Component{
         
 
         <div className='bg-image'>      
-         <img className='d-block w-100 ' src={Q} height={500}></img>        
+         <img className='d-block w-100 img-fluid' src={Q}></img>        
         </div>
 
 

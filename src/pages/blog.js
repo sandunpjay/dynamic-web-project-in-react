@@ -9,7 +9,7 @@ export default function blog() {
     <div>
       <div className='main-banner'>
      <img
-          className="d-block w-100" src={BLOG}
+          className="d-block " src={BLOG}
           alt="First slide"
         />
         </div>

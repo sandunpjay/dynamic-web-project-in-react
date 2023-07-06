@@ -1,30 +1,12 @@
  
  @import url("https://fonts.cdnfonts.com/css/gotham");
  
- .nav-link{
-  font-family:  'Gotham', sans-serif !important;   
-    color: #667B44 !important;
-    font-size: small !important;
-    font-weight: bold;
-    &:hover {
-      color: #fb7840 !important;
-    }
+ .nav-link {
+  display: inline-block;
+  
   }
-
-  .custom-link-1{
-    background-color: #667B44;
-    color: #FFF;
-  }
-
-  .nav-link.custom-link-1 {
-    background-color: #667B44; 
-    color: #FFFFFF;
-    height:fit-content;
-  }
-
-  .navbar-nav .nav-link {
-    color: #fff;
-    &:hover {
-      color: #fb7840;
-    }
+  
+  .nav-link:hover {
+  text-decoration: underline; /*will change background-color of element on hover */
+  text-decoration-color: #647942;
   }

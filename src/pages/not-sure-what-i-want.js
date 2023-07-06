@@ -4,6 +4,7 @@ import './../App.css'
 import Q from '../images/q.jpg'
 import { Component } from 'react'
 import QuestionService from '../services/QuestionService'
+import {LinkContainer} from 'react-router-bootstrap'
 
 class NotSureWhatIWant extends Component{
   constructor(props){
@@ -62,9 +63,9 @@ render() {
           }
         })}
 
-        <Button variant="success" type="submit"  className='custom-btn w-30'>
-        Find Hotel
-      </Button>
+         <LinkContainer to="/perfect-match">
+         <Button type="submit"  className='btn btn-custom mt-5' >Find Hotels</Button>
+          </LinkContainer>
        </Form>
       </div>
 
