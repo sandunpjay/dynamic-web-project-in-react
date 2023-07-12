@@ -36,7 +36,7 @@ export default function login() {
         <Form.Check type="checkbox" label="Remember Me" />
         <Form.Label>Forgot your password ? </Form.Label>
       </Form.Group>
-      <Button variant="primary" type="submit"  className='custom-btn'>
+      <Button variant="primary" type="submit"  className='btn btn-custom'>
         Login
       </Button>
     </Form>

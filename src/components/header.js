@@ -27,6 +27,9 @@ export default class Header extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto"  >
+          <LinkContainer to="/home">
+            <Nav.Link>HOME</Nav.Link>
+          </LinkContainer>
           <LinkContainer to="/about-us">
             <Nav.Link>ABOUT US</Nav.Link>
           </LinkContainer>

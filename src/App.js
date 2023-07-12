@@ -14,15 +14,20 @@ import BW from './pages/beauty-and-wellness-program';
 import PT from './pages/panchakarma-treatment';
 import NS from './pages/not-sure-what-i-want';
 import FM from './pages/perfect_match';
+import AL from './pages/ayurveda-in-everyday-life';
+import DW from './pages/why-you-should-drink-warm-water';
+import TS from './pages/ayurveda-and-historic-tourism-in-srilanka';
+
 
 function App() {
 
-
+  
   return (
     <Router>
       <Header/>  
       <Routes>        
-        <Route exact path="/" element={<Home/>} />        
+        <Route exact path="/" element={<Home/>} />  
+        <Route path="/home" element={<Home/>} />       
         <Route path="/about-us" element={<About/>} /> 
         <Route path="/why-sri-lanka" element={<WSL/>} /> 
         <Route path="/faq" element={<FAQ/>} /> 
@@ -33,6 +38,9 @@ function App() {
         <Route path="/panchakarma-treatment" element={<PT/>} /> 
         <Route path="/not-sure-what-i-want" element={<NS/>} /> 
         <Route path="/perfect-match" element={<FM/>} /> 
+        <Route path="/ayurveda-in-everyday-life" element={<AL/>} /> 
+        <Route path="/why-you-should-drink-warm-water" element={<DW/>} /> 
+        <Route path="/ayurveda-and-historic-tourism-in-srilanka" element={<TS/>} /> 
       </Routes>    
       <Footer/>
     </Router>

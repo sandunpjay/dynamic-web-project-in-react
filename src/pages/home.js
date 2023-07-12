@@ -32,7 +32,7 @@ export default function Home() {
           alt="First slide"
         />
         <Carousel.Caption >
-          <h1>Discover1 The Best Aurvada</h1>
+          <h1>Discover The Best Aurveda</h1>
           <h1>Hotels In Sri Lanka</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br></br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           
@@ -105,7 +105,9 @@ export default function Home() {
               </div>
 
               <div>
-              <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off">EXPLORE</button>
+                <LinkContainer to="/about-us">
+                  <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off" >EXPLORE</button>
+                </LinkContainer>
               </div>
 
             </div>
@@ -159,10 +161,18 @@ export default function Home() {
               <span className='content-text'>FindMyAyurveda.Lk Is A Sri-Lankan Based Team Of German Travel Agent And Local IT Specialist. More Than A Decade Of Experience Working In And With Ayurveda Hotels In Sri Lanka We Are Confident To Find The Best Matching Place For Your Needs And Wishes.</span>
               </div>
 
+              <div>
+                <LinkContainer to="/why-sri-lanka">
+                  <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off" >EXPLORE</button>
+                </LinkContainer>
+              </div>
+
             </div>
             <div className='col-md-6'>
               <img src={WhySL}  className='col-md-12 img-fluid'></img>
             </div>
+
+            
 
           </div>
 
@@ -187,27 +197,31 @@ export default function Home() {
           src={News1}
           alt="First slide"
         />
-        <div className='card-background p-5'>
-        <span className="text-sm-left ">BUEATY AND WELNESS PROGRAM</span>
-        
-        </div>
-        </div>
-       <div className='col-md-4 mb-5'><img
-          className="d-block w-100 "
-          src={News2}
-          alt="First slide"
-        />
-        <div className='card-background p-5'>
-        <span className="text-sm-left ">PANCHAKARMA TREATMENT</span>
+        <div className='card-background '>
+        <LinkContainer to="/ayurveda-in-everyday-life">       
+            <span className="text-sm-left ">AYURVEDA IN EVERYDAY LIFE - PRANA UP YOUR LIFE</span>
+        </LinkContainer>
         </div>
         </div>
        <div className='col-md-4 mb-5'><img
           className="d-block w-100 "
           src={News3}
+          alt="First slide"
+        />
+        <div className='card-background '>
+        <LinkContainer to="/why-you-should-drink-warm-water">     
+           <span className="text-sm-left ">WHY YOU SHOULD DRINK WARM WATER?</span>
+        </LinkContainer>
+        </div>
+        </div>
+       <div className='col-md-4 mb-5'><img
+          className="d-block w-100 "
+          src={News2}
           alt="First slide"/>
-           <div className='card-background p-5'>
-           <span className="text-sm-center">NOT SURE WHAT I WANT</span>
-           
+           <div className='card-background'>
+           <LinkContainer to="/ayurveda-and-historic-tourism-in-srilanka">     
+             <span className="text-sm-center">AYURVEDA & HISTORIC TOURISM IN SRI LANKA</span>
+           </LinkContainer>
           </div>
           </div>
         </div>
