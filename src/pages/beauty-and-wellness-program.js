@@ -6,22 +6,25 @@ import Q from '../images/q.jpg';
 import { Component } from 'react';
 import QuestionService from '../services/QuestionService'
 import {LinkContainer} from 'react-router-bootstrap'
+import ques from './../ques.json'
 
 
 class BeautyAndWellnessProgram extends Component{
 
-  constructor(props){
-      super(props);
-      this.state ={
-        questions :[]
-      }
-  }
+    
+  
+  //constructor(props){
+   //   super(props);
+  //    this.state ={
+  //      questions :[]
+  //    }
+ // }
 
-  componentDidMount(){
-    QuestionService.getQuestions().then((res)=>{
-    this.setState({ questions :res.data})
-    });
-  }
+  //componentDidMount(){
+    //QuestionService.getQuestions().then((res)=>{
+   // this.setState({ questions :ques.data})
+    //});
+  //} //this.state.questions.map
   
 
 
@@ -36,7 +39,9 @@ class BeautyAndWellnessProgram extends Component{
         <div className='ps-5 pe-5 ms-5 mt-5 me-5 mb-5 qa-text'>
         <Form>
 
-        {this.state.questions.map(question => {         
+         
+
+        {ques.map(question => {         
           if (question.answerType.type === 'radio') {
             // Render radio buttons
             return (

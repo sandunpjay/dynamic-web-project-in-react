@@ -1,0 +1,388 @@
+[
+{
+"questionId": 1,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "Who are you travelling with?",
+"recordStatus": 1,
+"seqNo": 1,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 1,
+"answerText": "I am traveling alone",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 1,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 2,
+"answerText": "I am traveling with my partner",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 1,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 3,
+"answerText": "My Partner will do the same program",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 1,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 4,
+"answerText": "I am traveling with my partner will do NO Ayurvedic Program",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 1,
+"recordStatus": 1
+}
+]
+},
+{
+"questionId": 2,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "What is my price range?",
+"recordStatus": 1,
+"seqNo": 2,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 21,
+"answerText": "Less than $100",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 2,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 22,
+"answerText": "$100 - $200",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 2,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 23,
+"answerText": "$200 - $500",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 2,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 24,
+"answerText": "More than $500",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 2,
+"recordStatus": 1
+}
+]
+},
+{
+"questionId": 3,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "What is my exact travel time?",
+"recordStatus": 1,
+"seqNo": 3,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 5,
+"description": "Input Number",
+"type": "textbox"
+},
+"questionAnswers": []
+},
+{
+"questionId": 4,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "The hotel needs to be",
+"recordStatus": 1,
+"seqNo": 4,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 5,
+"answerText": "Beach",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 4,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 6,
+"answerText": "It can be anywhere",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 4,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 7,
+"answerText": "At a river/lake",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 4,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 8,
+"answerText": "Close/walking distance to the beach",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 4,
+"recordStatus": 1
+}
+]
+},
+{
+"questionId": 5,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "I prefer a",
+"recordStatus": 1,
+"seqNo": 5,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 9,
+"answerText": "A small, familiar hotel with max. 15 rooms",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 5,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 10,
+"answerText": "Just want my peac",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 5,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 11,
+"answerText": "I need a bigger hotel > 15 rooms with some entertainment programs",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 5,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 12,
+"answerText": "I like only 4-5 star hotels or boutique hotels",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 5,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 13,
+"answerText": "I prefer a hotel with lots of nature",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 5,
+"recordStatus": 1
+}
+]
+},
+{
+"questionId": 6,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "I am looking for",
+"recordStatus": 1,
+"seqNo": 6,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 14,
+"answerText": "A wellness light Ayurveda package would be the best for me",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 6,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 15,
+"answerText": "I am looking for beauty/ cosmetic packages",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 6,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 16,
+"answerText": "A combination of massages and yoga would be perfect for me",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 6,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 17,
+"answerText": "Before I leave I would like to have a manicure/pedicure",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 6,
+"recordStatus": 1
+}
+]
+},
+{
+"questionId": 7,
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionText": "Ayurveda Light Package",
+"recordStatus": 1,
+"seqNo": 7,
+"questionaier": {
+"questionaierId": 1,
+"title": "Beauty and Wellness Program"
+},
+"answerType": {
+"answerTypeId": 1,
+"description": "Single Choice",
+"type": "radio"
+},
+"questionAnswers": [
+{
+"questionAnswerId": 18,
+"answerText": "Even I do only a light package, I would feel better if there is always a doctor in house",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 7,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 19,
+"answerText": "It would be great to see an Ayurvedic doctor every 2-3 days",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 7,
+"recordStatus": 1
+},
+{
+"questionAnswerId": 20,
+"answerText": "I don't need a doctor",
+"createdBy": null,
+"createdDate": null,
+"modifiedBy": null,
+"modifiedDate": null,
+"questionId": 7,
+"recordStatus": 1
+}
+]
+}
+]

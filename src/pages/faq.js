@@ -13,7 +13,7 @@ export default function faq() {
           className="d-block w-100 " src={FAQ} alt="WSL" />
         </div>
         <div className='row mt-5'>
-        <span className='col-md-12 header-text-x text-center'>AURVADA</span>
+        <span className='col-md-12 header-text-x text-center'>AURVEDA</span>
       </div>
 
       <div className='row text-center content-text ms-5 me-5'>
@@ -41,7 +41,7 @@ export default function faq() {
       <div className="div-background mt-5 ms-5 me-5">
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>How does Aurveda work?</Accordion.Header>
+        <Accordion.Header >How does Aurveda work?</Accordion.Header>
         <Accordion.Body className="content-text">
         <p className='ms-1 me-1'>The foremost effort of our organism is to keep us alive and active. That is its function, its duty.
            Every cell has the intelligence to support that duty, but it can be a difficult task due to social,

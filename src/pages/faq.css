@@ -5,7 +5,7 @@ body{
 }
 
 .accordion-button:not(.collapsed) {
-    color: #667B44;
-    background-color: #D0D7B9;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  color: #667B44;
+  background-color: #667B44;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
