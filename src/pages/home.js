@@ -10,7 +10,7 @@ import SPA from '../images/img55.jpg';
 import S1 from '../images/s1.png';
 import S2 from '../images/s2.png';
 import S3 from '../images/s3.png';
-import WhySL from '../images/wsl.jpg'
+import WhySL from '../images/img57.jpg'
 import News1 from '../images/n1.jpg';
 import News2 from '../images/n2.jpg';
 import News3 from '../images/n3.jpg';
@@ -119,36 +119,45 @@ export default function Home() {
 
      
 
-      <div>
-         <img className='d-block w-100 ' src={SPA}></img>
-      </div>
+      
+        <div class="thumbnail">
+           <img className='d-block w-100 img-div img-fluid' src={SPA}></img>
+           <div class="caption p-3">
+              <h2> HOW DOES IT WORK?</h2>
+              <p>Our system guides you through a small questionnaire and compares your answers with the parameters of our partner hotels. </p>
+              <p>You will receive the best matching options immediately and can decide, which one you like most. 
+                  After your selection we will contact the hotel, ask for availability and make the best deal you can get. </p>
+              <p>You will receive our oﬀer and as soon as you conﬁrm, we will book the hotel for you.</p>
+          </div>
+        </div>
+      
 
-      <div className='row spa-content-box'>
+      <div className='row'>
       <div className='col-md-4 mt-5  text-center'>
         <img src={S1} width={100} height={100}></img>
         <div>
-        <span>Text </span>        
+        <span>BEST DEALS</span>        
         </div>
         <div>
-        <span>Description</span>
+        <span>Let’s get the best rates for your stay</span>
         </div>
       </div>
       <div className='col-md-4 mt-5  text-center'>
       <img src={S2} width={100} height={100}></img>
         <div>
-        <span>Text </span>        
+        <span>LARGE VARIETY OF HOTELS</span>        
         </div>
         <div>
-        <span>Description</span>
+        <span>We partner with more than 50 Ayurveda Hotels in Sri Lanka</span>
         </div>
       </div>
       <div className='col-md-4 mt-5  text-center'>
       <img src={S3} width={100} height={100}></img>
       <div>
-        <span>Text </span>        
+        <span>EASY PAYMENT OPTIONS</span>        
         </div>
         <div>
-        <span>Description</span>
+        <span>Comfortable online payment</span>
         </div>
       </div>
       </div>
@@ -158,18 +167,27 @@ export default function Home() {
             <div className='col-md-6 p-5'>
               <span className='header-text-xx'>WHY SRI LANKA</span>
               <div className='mt-5'>
-              <span className='content-text'>FindMyAyurveda.Lk Is A Sri-Lankan Based Team Of German Travel Agent And Local IT Specialist. More Than A Decade Of Experience Working In And With Ayurveda Hotels In Sri Lanka We Are Confident To Find The Best Matching Place For Your Needs And Wishes.</span>
+              <span className='content-text'>Two reasons that speak for treatments in Sri Lanka are:</span>
+              <ul className='content-text'>
+                <li>Authentic environment - This refers to the people, the climate, the vegetation, the food</li>
+                <li>Lower personnel costs and lower manufacturing costs for oils, preparations. More performance for the same money</li>
+              </ul>
               </div>
 
               <div>
                 <LinkContainer to="/why-sri-lanka">
-                  <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off" >EXPLORE</button>
+                  <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off" >MORE</button>
+                </LinkContainer>
+                <LinkContainer to="/sri-lanka-vs-india">
+                  <button className='btn btn-custom mt-5 ms-5' data-mdb-toggle="button" autoComplete="off" > Sri Lanka vs. India</button>
                 </LinkContainer>
               </div>
 
+              
+
             </div>
             <div className='col-md-6'>
-              <img src={WhySL}  className='col-md-12 img-fluid'></img>
+              <img src={WhySL}  className='col-md-12'></img>
             </div>
 
             
@@ -184,9 +202,8 @@ export default function Home() {
           
         </div>
         <div className="text-center">
-          <p className="me-5 ms-5 text-sm-center header-text-xx">LATEST NEWS AND EVENTS</p>
-          <p className="me-5 ms-5 text-sm-center">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
-               More than  <br></br>a decade of experience working in and with Ayurveda.</p>
+          <p className="me-5 ms-5 text-sm-center header-text-xx">LATEST NEWS AND HELPFUL TIPS</p>
+          <p className="me-5 ms-5 text-sm-center content-text">We’ll keep you updated with the latest trends and infos around Ayurveda and a healthy lifestyle. </p>
         </div>
 
       </div>
@@ -228,10 +245,13 @@ export default function Home() {
 
         
         <div className='bg-image'>
-      
-         <img className='d-block w-100 img-fluid' src={Hotel} ></img>
-         
-       
+             <div class="thumbnail">      
+                <img className='d-block w-100 img-fluid' src={Hotel} ></img>
+                <div class="caption p-5">
+                  <h2>  REGISTER YOUR HOTEL </h2>
+                  <p>If you like to partner with us, please register here and ﬁll our Google Form</p>
+          </div>
+              </div>      
           
           </div>
       <div>

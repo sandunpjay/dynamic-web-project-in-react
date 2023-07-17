@@ -82,6 +82,28 @@ body{
   color : #667B44;
 }
 
+.img-div {
+  display: block;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;  
+  color: #647942;  
+  background-color: #FFFFFF;
+  opacity: 90%;
+  width: 50%;
+  height: 40%;
+}
+
 
 
 

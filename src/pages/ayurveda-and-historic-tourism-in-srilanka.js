@@ -3,6 +3,7 @@ import WSL from '../images/n2.jpg'
 import WSLB from '../images/wsl2.jpg'
 import './why-sri-lanka.css'
 import './../App.css'
+import Card from 'react-bootstrap/Card';
 
 export default function ayurvedaAndHistoricTourismInSrilanka() {
   return (
@@ -25,8 +26,19 @@ export default function ayurvedaAndHistoricTourismInSrilanka() {
           
       </div>
 
-      <img
-          className="d-block w-100 " src={WSLB} alt="WSL" />
+      <Card className="bg-dark text-white">
+      <Card.Img src={WSLB} alt="Card image" />
+      <Card.ImgOverlay className='d-flex justify-content-center align-items-center w-50 my-auto mx-auto text-center'>
+        <Card.Title>Card title</Card.Title>
+        <Card.Text>
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </Card.Text>
+        <Card.Text>Last updated 3 mins ago</Card.Text>
+      </Card.ImgOverlay>
+    </Card>
+
+      
     </div>
   )
 }

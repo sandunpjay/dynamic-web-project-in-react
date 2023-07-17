@@ -17,6 +17,7 @@ import FM from './pages/perfect_match';
 import AL from './pages/ayurveda-in-everyday-life';
 import DW from './pages/why-you-should-drink-warm-water';
 import TS from './pages/ayurveda-and-historic-tourism-in-srilanka';
+import SI from './pages/sri-lanka-vs-india';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path="/ayurveda-in-everyday-life" element={<AL/>} /> 
         <Route path="/why-you-should-drink-warm-water" element={<DW/>} /> 
         <Route path="/ayurveda-and-historic-tourism-in-srilanka" element={<TS/>} /> 
+        <Route path="/sri-lanka-vs-india" element={<SI/>} /> 
       </Routes>    
       <Footer/>
     </Router>
