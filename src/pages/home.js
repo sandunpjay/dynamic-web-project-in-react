@@ -136,34 +136,34 @@ export default function Home() {
       <div className='col-md-4 mt-5  text-center'>
         <img src={S1} width={100} height={100}></img>
         <div>
-        <span>BEST DEALS</span>        
+        <span className='header-text-x'>BEST DEALS</span>        
         </div>
         <div>
-        <span>Let’s get the best rates for your stay</span>
+        <span className='content-text'>Let’s get the best rates for your stay</span>
         </div>
       </div>
       <div className='col-md-4 mt-5  text-center'>
       <img src={S2} width={100} height={100}></img>
         <div>
-        <span>LARGE VARIETY OF HOTELS</span>        
+        <span className='header-text-x'>LARGE VARIETY OF HOTELS</span>        
         </div>
         <div>
-        <span>We partner with more than 50 Ayurveda Hotels in Sri Lanka</span>
+        <span className='content-text'>We partner with more than 50 Ayurveda Hotels in Sri Lanka</span>
         </div>
       </div>
       <div className='col-md-4 mt-5  text-center'>
       <img src={S3} width={100} height={100}></img>
       <div>
-        <span>EASY PAYMENT OPTIONS</span>        
+        <span className='header-text-x'>EASY PAYMENT OPTIONS</span>        
         </div>
         <div>
-        <span>Comfortable online payment</span>
+        <span className='content-text'>Comfortable online payment</span>
         </div>
       </div>
       </div>
 
 
-      <div className='row'>
+      <div className='row mt-5'>
             <div className='col-md-6 p-5'>
               <span className='header-text-xx'>WHY SRI LANKA</span>
               <div className='mt-5'>
