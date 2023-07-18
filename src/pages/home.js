@@ -16,7 +16,7 @@ import News2 from '../images/n2.jpg';
 import News3 from '../images/n3.jpg';
 import Arrow from '../images/arrow.png'
 import Carousel from 'react-bootstrap/Carousel';
-import './home.css'
+import './home.css'  
 import './../App.css'
 import {LinkContainer} from 'react-router-bootstrap';
 
@@ -25,16 +25,27 @@ export default function Home() {
     <div>
         
       <Carousel>
-      <Carousel.Item>
+      <Carousel.Item active>
         <img
           className="d-block w-100 "
           src={mainImage}
           alt="First slide"
         />
         <Carousel.Caption >
-          <h1>Discover The Best Aurveda</h1>
-          <h1>Hotels In Sri Lanka</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br></br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h1> Searching for the best matching Ayurveda Hotel in Sri Lanka?</h1>          
+          <p>Only a few steps and we present you the solution</p>
+          
+        </Carousel.Caption> 
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 "
+          src={mainImage}
+          alt="Second slide"
+        />
+        <Carousel.Caption >
+          <h1> Searching for the best matching Ayurveda Hotel in Sri Lanka?</h1>          
+          <p>Only a few steps and we present you the solution</p>
           
         </Carousel.Caption> 
       </Carousel.Item>
@@ -48,8 +59,10 @@ export default function Home() {
         </div>
         <div className="text-center">
           <p className="me-5 ms-5 text-sm-center header-text-xx">FIND THE PERFECT FIT</p>
-          <p className="me-5 ms-5 text-sm-center content-text">FindMyAyurveda.lk is a Sri-Lankan based team of German Travel Agent and local IT Specialist.
-               More than  <br></br>a decade of experience working in and with Ayurveda.</p>
+          <p className="me-5 ms-5 text-sm-center content-text">Without hours of searching, writing emails and calls, all your questions will be answered using our customer-friendly platform to get the best <br></br>
+          option tailor-made for you. If there are unanswered questions your personal contact person is always there for <br></br>
+          you – before, during and after your journey. </p>
+          <p className="me-5 ms-5 text-sm-center content-text">Enjoy exploring the world of Ayurveda in Sri Lanka! Let’s go…..</p>
         </div>
 
       </div>
@@ -100,9 +113,10 @@ export default function Home() {
             <div className='col-md-6'>
               <span className='header-text-xx'>ABOUT US</span>
               <div className='mt-5'>
-              <span className='content-text'>FindMyAyurveda.Lk Is A Sri-Lankan Based Team Of German Travel Agent And Local IT Specialist. More Than A Decade Of Experience Working In And With Ayurveda Hotels In Sri Lanka We Are Confident To Find The Best Matching Place For Your Needs And Wishes.</span>
+              <p className='content-text'>FindMyAyurveda.com is a Sri-Lankan based team of German Travel Agent, very passionate former Ayurveda Hotel Manager and local IT Specialist.
+              <br></br>More than two decades of experience working in and with Ayurveda Hotels in Sri Lanka we are conﬁdent to ﬁnd the best matching place for your needs and wishes and get the best deals for you</p>
               
-              </div>
+              </div> 
 
               <div>
                 <LinkContainer to="/about-us">
@@ -122,14 +136,14 @@ export default function Home() {
       
         <div class="thumbnail">
            <img className='d-block w-100 img-div img-fluid' src={SPA}></img>
-           <div class="caption p-3">
+           <div class="caption p-4">
               <h2> HOW DOES IT WORK?</h2>
               <p>Our system guides you through a small questionnaire and compares your answers with the parameters of our partner hotels. </p>
               <p>You will receive the best matching options immediately and can decide, which one you like most. 
                   After your selection we will contact the hotel, ask for availability and make the best deal you can get. </p>
               <p>You will receive our oﬀer and as soon as you conﬁrm, we will book the hotel for you.</p>
           </div>
-        </div>
+        </div>  
       
 
       <div className='row'>
@@ -246,9 +260,10 @@ export default function Home() {
         
         <div className='bg-image'>
              <div class="thumbnail">      
-                <img className='d-block w-100 img-fluid' src={Hotel} ></img>
+                <img className='d-block w-100' src={Hotel} ></img>
                 <div class="caption p-5">
                   <h2>  REGISTER YOUR HOTEL </h2>
+                  <h2> &nbsp;</h2>
                   <p>If you like to partner with us, please register here and ﬁll our Google Form</p>
           </div>
               </div>      
