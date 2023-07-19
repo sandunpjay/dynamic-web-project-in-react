@@ -20,9 +20,16 @@ import './home.css'
 import './../App.css'
 import {LinkContainer} from 'react-router-bootstrap';
 
+const handleClick = () => {
+  window.location.replace('https://docs.google.com/forms/d/1OxJ33CelOAaAEtf-mZZQtpHsbI1Pq2PCA7DiYj2OkqM/prefill');
+};
+
 export default function Home() {
+  
   return (
-    <div>
+
+    
+    <div>     
         
       <Carousel>
       <Carousel.Item active>
@@ -263,9 +270,10 @@ export default function Home() {
                 <img className='d-block w-100' src={Hotel} ></img>
                 <div class="caption p-5">
                   <h2>  REGISTER YOUR HOTEL </h2>
-                  <h2> &nbsp;</h2>
+                  
                   <p>If you like to partner with us, please register here and ﬁll our Google Form</p>
-          </div>
+                  <button className='btn btn-custom mt-5' data-mdb-toggle="button" autoComplete="off" onClick={handleClick}>REGISTER</button>
+                </div>
               </div>      
           
           </div>

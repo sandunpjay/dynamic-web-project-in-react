@@ -3,10 +3,25 @@
  
  .nav-link {
   display: inline-block;
-  
+  color: #647942;
+  font-weight:bold ;
   }
   
   .nav-link:hover {
-  text-decoration: underline; /*will change background-color of element on hover */
+   /*will change background-color of element on hover */
+  font-weight:bold ;
   text-decoration-color: #647942;
+ /*background-color: #647942;*/  
+  /*height: 80px;*/
+  text-align: center;
+  
+  }
+
+  .link-reg{
+
+  }
+
+  .link-login{
+    background-color: #647942;
+    height: 80px;
   }

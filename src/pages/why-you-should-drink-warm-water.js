@@ -1,5 +1,5 @@
 import React from 'react'
-import WSL from '../images/n3.jpg'
+import WSL from '../images/n5.jpg'
 import WSLB from '../images/wsl2.jpg'
 import './why-sri-lanka.css'
 import './../App.css'
@@ -8,7 +8,7 @@ export default function whyYouShouldDrinkWarmWater() {
   return (
     <div>
         <img
-          className="d-block w-100 " src={WSL} alt="WSL" />
+          className="d-block w-100 " src={WSL} alt="WSL" height={400}/>
 
       <div className='row mt-5 ms-5'>
         <span className='col-md-12 header-text-xx'>WHY YOU SHOULD DRINK WARM WATER?</span>        
