@@ -18,10 +18,13 @@
   }
 
   .link-reg{
-
+    background-color: #647942;
+    height: 80px;
   }
 
   .link-login{
     background-color: #647942;
     height: 80px;
   }
+
+  .navbar { margin-bottom: 0 }

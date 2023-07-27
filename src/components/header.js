@@ -11,14 +11,14 @@ const handleClick = () => {
   window.location.replace('https://docs.google.com/forms/d/1OxJ33CelOAaAEtf-mZZQtpHsbI1Pq2PCA7DiYj2OkqM/prefill');
 };
 
-export default class Header extends Component {
+const bgColors = { "Moonmist": "#F5F5F0","Pantone": "#647942"};
 
-  
+export default class Header extends Component {  
 
   render() {
     return (
-      <Navbar bg="white" expand="lg" >
-      <Container >
+      <Navbar style={{padding: "0"}}>
+      <Container style={{marginLeft: "0",padding: "0",maxWidth:'100%'}}>
       <LinkContainer to="/">
       <Navbar.Brand >
             <img responsive
@@ -49,12 +49,12 @@ export default class Header extends Component {
             <Nav.Link>BLOG</Nav.Link>     
             </LinkContainer>               
           </Nav>
-          <Nav>
+          <Nav style={{marginRight: "0"}}>
           
-            <Nav.Link onClick={handleClick}>REGISTER YOUR HOTEL</Nav.Link>
+            <Nav.Link className='nav-link'  style={{backgroundColor:bgColors.Moonmist, height:'100px', paddingTop :'35px'}} onClick={handleClick}>REGISTER YOUR HOTEL</Nav.Link>
             
-            <LinkContainer to="/login" >
-            <Nav.Link >
+            <LinkContainer to="/login" style={{backgroundColor:bgColors.Pantone, height:'100px',paddingTop :'35px',textAlign:'center',color:'white'}} >
+            <Nav.Link className='nav-link'  >
               LOGIN
             </Nav.Link>
             </LinkContainer>
