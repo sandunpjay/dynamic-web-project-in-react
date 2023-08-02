@@ -38,7 +38,7 @@ export default function Home() {
           src={mainImage}
           alt="First slide"
         />
-        <Carousel.Caption >
+        <Carousel.Caption style={{textAlign:"left"}}>
           <h1> Searching for the best matching Ayurveda Hotel in Sri Lanka?</h1>          
           <p>Only a few steps and we present you the solution</p>
           
@@ -50,7 +50,7 @@ export default function Home() {
           src={mainImage}
           alt="Second slide"
         />
-        <Carousel.Caption >
+        <Carousel.Caption style={{textAlign:"left"}}>
           <h1> Searching for the best matching Ayurveda Hotel in Sri Lanka?</h1>          
           <p>Only a few steps and we present you the solution</p>
           

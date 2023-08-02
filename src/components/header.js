@@ -17,7 +17,7 @@ export default class Header extends Component {
 
   render() {
     return (
-      <Navbar style={{padding: "0"}}>
+      <Navbar style={{padding: "0",marginLeft:"50px"}}>
       <Container style={{marginLeft: "0",padding: "0",maxWidth:'100%'}}>
       <LinkContainer to="/">
       <Navbar.Brand >
@@ -31,7 +31,7 @@ export default class Header extends Component {
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
-        <Navbar.Collapse id="basic-navbar-nav" >
+        <Navbar.Collapse id="basic-navbar-nav" style={{textAlign:"center"}}>
           <Nav className="me-auto"  >
           <LinkContainer to="/home">
             <Nav.Link >HOME</Nav.Link>
